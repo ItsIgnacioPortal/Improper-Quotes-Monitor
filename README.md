@@ -10,6 +10,7 @@ Windows will try to run any of these, in this order:
 - C:\Program Files\My.exe
 - C:\Program Files\My Epic Program\bin.exe
 - C:\Program Files\My Epic Program\bin files\extras\ffmpeg.exe
+
 Whichever it finds first, it will run. When running a command similarly but from another program, windows will just error out saying `'C:/Program' is not recognized as an internal or external command, operable program or batch file.` because you didn't include quotes in the path of your command.
 
 This project exploits this by creating an executable and placing it under C:\Program.exe and logging everything that goes after that as a parameter.
