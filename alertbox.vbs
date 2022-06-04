@@ -1,0 +1,1 @@
+MsgBox "A program has just tried to access "& Chr(34) & "C:\Program.exe"& Chr(34) & "." & Chr(13) & Chr(10) & "Check this path:  C:\Path\to\Improper Quotes Monitor\access-log.txt" & Chr(13) & Chr(10) & "to see the parameters Program.exe was executed with.",48,"SECURITY ALERT" 
