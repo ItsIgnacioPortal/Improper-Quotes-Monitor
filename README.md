@@ -38,7 +38,7 @@ Processing...
 2 - Replace `C:\Path\to\Improper Quotes Monitor` in `alertbox.vbs` with the path of where you've cloned this repository.    
 3 - `go build Program.go`    
 4 - `mv Program.exe C:\Program.exe`    
-5 - Run the program you want to hack/troubleshoot
+5 - Run the program you want to hack/troubleshoot     
 6 - Check `access-log.txt` in the path of where you've cloned this repository.    
 
 Your antivirus will probably flag Program.exe as being malware, as this is a common filepath for malware. This is obviusly not malware, the source code is right here and you'll compile it yourself. 
